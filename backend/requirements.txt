@@ -1,51 +1,16 @@
-
-# streamlit
-# openai
-# python-dotenv
-# pypdf
-
-
-
-
-
-
-
-
-# fastapi
-# uvicorn
-# sqlalchemy
-# psycopg2-binary
-# python-dotenv
-# python-multipart
-# bcrypt
-
-# openai
-
-# langchain
-# langchain-openai
-# langchain-community
-
-# faiss-cpu
-
-# pypdf
-
-
-
-
 fastapi
 uvicorn
+sqlalchemy
+psycopg2-binary
 python-dotenv
+python-jose
+passlib
+bcrypt
+python-multipart
 openai
 pypdf
-
-langchain
-langchain-community
-langchain-openai
-
 faiss-cpu
-
-sqlalchemy
-passlib[bcrypt]
-python-jose[cryptography]
-
-python-multipart
+langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
