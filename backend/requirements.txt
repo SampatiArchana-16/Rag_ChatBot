@@ -11,20 +11,41 @@
 
 
 
+# fastapi
+# uvicorn
+# sqlalchemy
+# psycopg2-binary
+# python-dotenv
+# python-multipart
+# bcrypt
+
+# openai
+
+# langchain
+# langchain-openai
+# langchain-community
+
+# faiss-cpu
+
+# pypdf
+
+
+
+
 fastapi
 uvicorn
-sqlalchemy
-psycopg2-binary
 python-dotenv
-python-multipart
-bcrypt
-
 openai
+pypdf
 
 langchain
-langchain-openai
 langchain-community
+langchain-openai
 
 faiss-cpu
 
-pypdf
+sqlalchemy
+passlib[bcrypt]
+python-jose[cryptography]
+
+python-multipart
