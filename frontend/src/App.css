@@ -91,3 +91,46 @@ body {
 .nav-links a:hover {
   color: #60a5fa;
 }
+
+
+/* ===================== */
+
+.chat-input {
+  position: sticky;
+  bottom: 10px;
+
+  display: flex;
+  align-items: center;
+
+  width: 90%;
+  max-width: 800px;
+
+  margin: auto;
+  padding: 10px 15px;
+
+  border: 1px solid #d9d9e3;
+  border-radius: 24px;
+
+  background: white;
+}
+
+.chat-input textarea {
+  flex: 1;
+  border: none;
+  outline: none;
+  resize: none;
+  font-size: 16px;
+  background: transparent;
+}
+
+.chat-input button {
+  width: 40px;
+  height: 40px;
+
+  border: none;
+  border-radius: 50%;
+
+  background: black;
+  color: white;
+  cursor: pointer;
+}

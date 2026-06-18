@@ -301,25 +301,16 @@ function Chatbot() {
           }
 
           <div className="chat-input">
-            <input
-              value={prompt}
-              placeholder="Ask anything..."
-              onChange={(e) =>
-                setPrompt(
-                  e.target.value
-                )
-              }
-            />
+  <textarea
+    value={prompt}
+    placeholder="Ask anything..."
+    onChange={(e) => setPrompt(e.target.value)}
+  />
 
-            <button
-              onClick={
-                sendMessage
-              }
-            >
-              Send
-            </button>
-
-          </div>
+  <button onClick={sendMessage}>
+    ➤
+  </button>
+</div>
 
         </div>
 
